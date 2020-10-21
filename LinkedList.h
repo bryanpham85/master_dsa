@@ -22,6 +22,6 @@ class LinkedList{
         void InsertHead(int data);
         void RemoveTail();
         void RemoveHead();
-        void insert(int data, int pos);
+        void Insert(int data, int pos);
         void Remove(int pos);
 };

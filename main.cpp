@@ -11,11 +11,10 @@ int main() {
 
     //insert head
     lSample->InsertHead(1);
-    lSample->InsertHead(2);
-    lSample->InsertHead(3);
-    lSample->InsertTail(4);
-    cout <<"size of the list by Size method "<< lSample->Size() << "\n";
-    lSample->Traverse();
+    lSample->InsertTail(2);
+    lSample->Insert(3,1);
+    lSample->RemoveHead();
+    lSample->RemoveTail();
 
     return 1;
 }
